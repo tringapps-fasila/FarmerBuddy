@@ -1,0 +1,5389 @@
+INTRODUCTION
+
+1.1 SYNOPSIS
+
+Farmer’s Buddy is a php based application. The web application includes merchandising the
+agricultural lands for rent, and also the products made by farmers.
+
+The main scope of this web application is to give lands for rents, for the farmers those
+who are interested in doing agricultural lands related farming ,from user’s which have plots
+on their lands. From this website we can sell the seller’s products in a customer rate without
+any agencies in between so that there will be no issues for the customer’s and seller’s.so that
+
+the farmers will get maximum profit.
+
+Through this website, anyone can get the correct information regarding the
+
+agricultural details such as soil details, crop details, and fertilizer details.
+MODULES
+There are 4 modules in the system
+
+1. Admin
+
+Admin has the full authority over the website. He can manage all the registered users
+and farmers. He can provide the agricultural details and update it. He can add the details such
+
+as district, place, croptype, soiltype, fertilizertype, farmertype.
+FEATURES
+
+> Login
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 9
+
+ 
+>» Operate the website
+> Accept or reject the new farmers and users
+
+> Provide informations such as soiltype, fertilizertype, croptype etc...
+2. Farmer
+
+Farmers can register itself, add their new products, view the plots that registered by
+
+the users.
+
+>» Add their products
+> Login
+
+> They search agricultural details
+
+> Buy the plots from the users for farming
+
+3. User
+
+User can register itself, add their new plots, add farmer rating, view the products that
+registered by the farmers.
+
+FEATURES
+
+> Add there plots
+> Login
+>» Buy product from farmer
+
+> Farmer rating
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 10
+2. SYSTEM ANALYSIS
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+11
+2.1 INTRODUCTION
+
+System analysis is a step-by-step process used to identify and develop or acquire
+the software need to control the processing of specific application. System analysis is a
+continuing activity the stages of the systems development. System analysis is the process of
+gathering and interpreting facts, diagnosing problems and using the facts to improve the
+system. The outputs from the organization are traced through the various processing that the
+input phases through in the organization. This involves gathering information and using
+structured tools for analysis. A detailed study of this process must be made by various
+
+techniques like interviews; questionnaires etc.
+
+It is necessary to have such a good system analysis and then by a project development cycle
+so that the project can be completed in a strictly manner and able to finish with the desired
+
+time. The analyst must be so careful about his responsibilities.
+
+As the next step the current system analysis is done which identifies the real need
+of establishing our project in the environment, its opportunities and constraints etc... All of
+
+the steps discussed above are collectively known as the system analysis.
+
+2.2. EXISTING SYSTEM
+
+No more existing software like this system companies make a booking request for a
+
+placement drive by phone calls or emails
+
+2.2.1 Limitations of Existing System
+
+*Harder to find farmers.
+*There are lots of unknown existing plots for farming.
+
+*Farmers should share their half of the profit to mediators.
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 12
+
+ 
+*Time consuming
+
+2.3 PROPOSED SYSTEM
+
+The primary objective of the proposed system design is to overcome the drawbacks of
+the existing system. We can achieve this objective by adding more activities that are carried
+
+out manually. It is very user friendly.
+
+2.3.1. ADVANTAGES OF PROPOSED SYSTEM
+
+In the computerized system following features are included,
+>» Easy to find farmers.
+>» Better interaction between farmers and users.
+>» The farmer can earn more profit.
+>
+
+Easy to find the unknown existing plots for farming.
+
+—————— ST
+JAI BHARATH ARTS AND SCIENCE COLLEGE 13
+3. FEASIBILITY ANALYSIS
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 14
+One of the important outcomes of the preliminary investigation is the determination of the
+feasibility of the system. These are different aspects of the feasibility study in the
+investigation phase. After the documents reviewing the selected personnel, investigating the
+various resources the following are the three feasibility.
+Three key combinations are involved in the feasibility study
+
+e Technical feasibility
+
+« Economic feasibility
+
+e Operational feasibility
+3.1 TECHNICAL FEASIBILITY
+
+Technical study is a study of hardware and software requirements .All the
+technical issue related to the proposed system is dealt during feasibility stage of preliminary
+
+investigation produced the following results.
+3.2 ECONOMIC FEASIBILITY
+
+Economic analysis is the most frequently used method for evaluating the effectiveness of a
+candidate system. More commonly known as cost/benefit analysis, the procedure is to
+determine the benefit and saving that are expected from a candidate system and compare
+them with the term of time by automating the process of report generation. The system can be
+developed technically and if installed would still be good for the organization. The cost is
+found to be lesser compared to the benefits of the proposed system. The workload of a user
+will decrease to half of the current workload. Hence the proposed system is found to be
+
+economic feasible.
+
+3.3 OPERATIONAL FEASIBILITY
+
+The developed system is completely driven and user friendly. Also the system is
+developed in Visual Basic, which is GUI. There is little need skill for new user to operate the
+software. Reports will be exactly as per the requirement. At the beginning of preliminary
+investigation work all the personnel approached responded positively this reduces the chance
+of resistance to the proposed system. Considering all the issue stated above makes the
+
+proposed system feasible.
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 15
+4.1. HARDWARE REQUIREMENTS
+
+Selection of hardware configuration is very important task related to the
+software development. The processor should be powerful to handle all the operations .
+The hard disk should have the sufficient capacity to solve the database and the
+application.
+
+Minimum hardware requirements
+
+Processor : Intel Pentium 4 or higher
+
+Processor Speed : 1.5GHz or higher
+
+System bus : 32bits
+
+Memory : 1GB_ RAM or Higher
+
+Hard disk : 40GB or Higher
+
+Monitor : 14” LCD Monitor
+
+Keyboard : 104 keys
+
+Pointing Device : Two or Three Button Mouse
+
+4.2. SOFTWARE REQUIREMENTS
+
+3 Operating System : Windows XP SP3 or Windows7
+
+4 IDE : Adobe Dream Weaver
+
+5 Front End : PHP , HTML 5
+
+6 Back End : MySql
+
+7 Web Server : TIS 6.0
+
+8 Browser : Internet Explorer, Mozilla Firefox, Google Chrome
+
+SOFTWARE REQUIREMENT SPECIFICATION
+
+A software requirements specification (SRS) is a comprehensive description
+
+of the intended purpose and environment for software under development. The SRS fully
+
+ 
+
+describes what the software will do and how it will be expected to perform. An SRS
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 17
+minimizes the time and effort required by developers to achieve desired goals and also
+minimizes the development cost. A good SRS defines how an application will interact with
+
+system hardware, other programs and human users in a wide variety of real-world situations.
+
+4.3 LANGUAGE AND TOOLS USED
+
+4.3.1 FRONT END
+The PHP Hypertext Preprocessor (PHP) is a programming language that allows web
+
+developers to create dynamic content that interacts with databases. PHP is basically used
+
+for developing web based software applications. This tutorial helps you to build your base
+
+with PHP.
+
+PHP started out as a small open source project that evolved as more and more people found
+
+out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994.
+PHP isa recursive acronym for "PHP: Hypertext Preprocessor".
+
+PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic
+
+content, databases, session tracking, even build entire e-commerce sites.
+
+It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle,
+Sybase, Informix, and Microsoft SQL Server.
+
+PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the
+UNIX side. The MySQL server, once started, executes even very complex queries with huge
+
+result sets in record-setting time.
+
+PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added
+support for Java and distributed object architectures (COM and CORBA), making n-tier
+
+development a possibility for the first time.
+PHP is forgiving: PHP language tries to be as forgiving as possible.
+
+PHP Syntax is C-Like.
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 18
+FARMER’S BUDDY
+
+Common uses of PHP
+
+PHP performs system functions, i.e. from files on a system it can create, open, read, write, and
+
+close them.
+
+PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send
+
+data, return data to the user.
+
+You add, delete, and modify elements within your database through PHP.
+Access cookies variables and set cookies.
+
+Using PHP, you can restrict users to access some pages of your website.
+
+It can encrypt data.
+
+Characteristics of PHP
+
+Five important characteristics make PHP's practical nature possible —
+
+Simplicity
+Efficiency
+Security
+
+Flexibility
+
+Familiarity
+
+MySQL is the most popular Open Source Relational SQL database management system. MySQL
+is one of the best RDBMS being used for developing web-based software applications.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 19
+
+ 
+he REMATE BIEL ore
+
+4.3.2 BACK END
+
+MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses.
+MySQL is developed, marketed, and supported by MySQL AB, which is a Swedish
+
+company. MySQL is becoming so popular because of many good reasons:
+
+MySQL is released under an open-source license. So you have nothing to pay to use it.
+
+MySQL is a very powerful program in its own right. It handles a large subset of the
+
+functionality of the most expensive and powerful database packages.
+MySQL uses a standard form of the well-known SQL data language.
+
+MySQL works on many operating systems and with many languages including PHP, PERL,
+C, CH, JAVA, ete.
+
+MySQL works very quickly and works well even with large data sets.
+MySQL is very friendly to PHP, the most appreciated language for web development.
+
+MySQL supports large databases, up to 50 million rows or more in a table. The default file
+size limit for a table is 4GB, but you can increase this (if your operating system can handle
+
+it) to a theoretical limit of 8 million terabytes (TB).
+
+MySQL is customizable. The open-source GPL license allows programmers to modify the
+
+MySQL software to fit their own specific environments.
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 20
+RGREGLTE EEL oF Eva iv 2b
+
+4.3.3 OPERATING SYSTEM
+
+The OS used is Windows Operating System. The hall mark software of Microsoft, which had
+created a new wave of graphical user interface in the industry, WINDOWS 7 and 10 stands in
+the top of its popularity. The advent of Microsoft plus has cured whatever faults were there in
+the original WINDOWS 10 version and made it and useful tool to work with the memory
+resident programs of it, make the reloading of WINDOWS 10 easier, it plug and play
+connectivity for input output devices makes a new dimension towards the use of computer
+system. Connectivity to the information networks like Internet through modems makes it
+
+overstate software. Almost all new software has their windows version also. The programmer
+
+and file manager facilities of it had made a leap way towards giving a new dimension
+
+towards the operation of computer systems
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 21
+
+ 
+DATA FLOW DIAGRAM
+
+To start the system design, something analogue to the architecture blue print as a
+starting point to design is required. It is a way to focus on functions rather than physical
+implementation. One such tool is a DFD.
+
+Structured analysis is a set of techniques and graphical tools that help the analyst to
+develop a new kind of system specification that are easily understandable to the user DFD’s
+show the major decompositions of the system functions and their interfaces. The DFD is
+graphic and presents a picture of what is being specified and is conceptually easy to
+understand presentation of the application.
+
+One important feature of DFD’s is that it is logical rather than physical. The elements
+of the system do not depend on vendor or hardware. They specify in precise, concise manner
+the working of the system and how it hangs together.
+
+DFD is the graphic representation of data movement process, and files used in support
+of an information system. There are several rules of thumb used in drawing DFDs.
+
+e Process should be named and numbered for easy references.
+
+e The direction of flow is from top to bottom and from left to right.
+
+e When a process is imported in the lower levels details, they must be numbered.
+
+e Process and data flow names have the first letter of each word must be a capital letter.
+
+The symbol used in DFD are shown be
+
+Source or destination of data
+
+> Data flow
+
+ 
+
+Process that transform data flow
+
+Data store
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 23
+Context Diagram
+
+ 
+
+GUEST
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+ 
+
+Request
+
+ 
+
+FARMER'S
+BUDDY
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+USERS
+
+ 
+
+ 
+
+ 
+
+—TATBHARATH ARTS AND SCIENCE COLLEGE —
+
+FARMERS
+
+24
+
+ 
+FARMER’S BUDDY
+
+Level 1 -Admin
+
+tbl_croptype
+
+ 
+
+District details
+
+~
+
+ 
+
+thl_district
+
+ 
+
+ 
+
+ 
+
+Soiltype details
+
+ 
+
+>
+
+ 
+
+tbl_soiltype
+
+Fertilizertype details
+5.0
+
+ 
+
+ 
+
+sas thl_fertilizertype
+Fertilizer type
+
+ 
+
+thl_farmertype
+
+Rating details i
+
+ly tbl_rating
+
+ 
+
+¢Farmer details thl_farmer
+
+Farmer details
+
+thl_farmer
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 25
+FARMER'S BUDDY
+
+ 
+
+Levell-FARMER
+
+ 
+
+ 
+
+ 
+
+User details
+
+olltype details
+
+ 
+
+Fertilizer details
+oo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+26
+Level 1-USER
+
+  
+   
+ 
+ 
+
+Plot Name
+eo
+Add Plot ‘ tbhl_plot
+1.0
+Rating details
+
+thl_rating
+
+[ thl_farmer
+
+ 
+   
+ 
+ 
+ 
+   
+
+Farmer details
+
+  
+ 
+
+Booking details >
+tbl_plotbooking
+
+Plot details thl_plot
+
+Complaint details
+
+—<£€ fot_plotcompiaint
+
+   
+ 
+
+View Plot
+Complaint
+4.0
+
+ 
+
+     
+ 
+
+ 
+
+ 
+
+ 
+
+   
+    
+
+a
+
+   
+
+  
+  
+
+6.0 Your complaint
+View Your
+
+Complaint
+
+fbl_productcompla
+iit ___.
+
+    
+ 
+
+ 
+
+  
+ 
+
+Product details
+
+ 
+  
+ 
+
+{ tbl_product
+{ tbl_farmer
+
+Farmer details
+
+ 
+ 
+ 
+     
+ 
+ 
+
+Farmer details
+tbl_farmer
+
+ 
+
+Managemen
+t
+
+    
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 27
+
+ 
+FARMER’S BUDDY
+
+6. SYSTEM DESIGN
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 28
+FARMER os BUDDY
+
+   
+   
+    
+   
+   
+   
+    
+        
+   
+   
+     
+     
+   
+ 
+   
+  
+
+6.1 INTRODUCTION TO SYSTEM DESIGN
+
+Design is the first step into the development phase for any engineered product or
+system. Design is a creative process. A good design is the key to effective system. The
+term “design” is defined as “the process of applying various techniques and principles for
+the purpose of defining a process or a system in sufficient detail to permit its physical
+realization”. It may be defined as a process of applying various techniques and principles
+for the purpose of defining a device, a process or a system in sufficient detail to permit its
+physical realization. Software design sits at the technical kernel of the software
+engineering process and is applied regardless of the development paradigm that is used.
+
+The system design develops the architectural detail required to build a system or
+product. As in the case of any systematic approach, this software too has undergone the best
+possible design phase fine tuning all efficiency, performance and accuracy levels. The
+design phase is a transition from a user oriented document to a document to the
+
+programmers or database personnel. System design goes through two phases of
+
+development: Logical and Physical Design.
+
+6.2 LOGICAL DESIGN
+
+The logical flow of a system and define the boundaries of a system. It includes the
+
+ 
+   
+     
+   
+     
+   
+   
+
+following steps:
+
+e Reviews the current physical system — its data flows, file content, volumes,
+frequencies etc.
+
+e Prepares output specifications — that is, determines the format, content and
+frequency of reports.
+
+Prepares input specifications— format, content and most of the input functions.
+ePrepares edit, security and control specifications.
+
+Specifies the implementation plan.
+
+TAI BHARATH ARTS AND SCIENCE COLLEGE 29
+_ FARMER'S BUDDY
+
+   
+   
+
+ePrepares a logical design walk through of the information flow, output, input,
+
+controls and implementation plan.
+
+Reviews benefits, costs, target dates and system constraints.
+
+6.3 PHYSICAL DESIGN
+
+Physical system produces the working systems by define the design specifications
+that
+
+tell the programmers exactly what the candidate system must do. It includes the following
+steps.
+
+e Design the physical system.
+¢ Specify input and output media.
+Design the database and specify backup procedures.
+
+¢ Design physical information flow through the system and a physical design Walk
+through.
+
+ePlan system implementation.
+e Prepare a conversion schedule and target date.
+e Determine training procedures, courses and timetable.
+
+Devise a test and implementation plan and specify any new hardware/software.
+
+e Update benefits, costs, and conversion date and system constraints
+Design/Specification activities:
+
+eConcept formulation.
+
+eProblem understanding.
+
+eHigh level requirements proposals.
+eFeasibility study.
+
+eRequirements engineering.
+
+eArchitectural design.
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 30
+L CMLWIVE RES oF ar wav er
+
+6.4 MODULE DESIGN
+
+Admin
+
+The Administrator logs in using the admin login. In this module two operations
+
+are done. During login the Login and Password is verified with that in the database.
+
+6.4.1 INPUT DESIGN
+
+The design of input focuses on controlling the amount of input required, controlling
+the errors, avoiding delay, avoiding extra steps and keeping the process simple. The input
+is designed in such a way so that it provides security and ease of use with retaining the
+privacy.
+
+Input Design considered the following things:
+
+o What data should be given as input?
+
+o How the data should be arranged or coded?
+
+o The dialog to guide the operating personnel in providing input.
+
+o Methods for preparing input validations and steps to follow when error
+
+occur.
+OBJECTIVES
+
+Input Design is the process of converting a user-oriented description of the input into
+a computer-based system. This design is important to avoid errors in the data input process
+and show the correct direction to the management for getting correct information from
+
+the computerized system.
+
+When the data is entered it will check for its validity. Data can be entered with the
+help of screens. Appropriate messages are provided as when needed so that the user will not
+be in a maize of instant. Thus the objective of input design is to create an input layout that is
+
+easy to follow
+
+6.4.2 OUTPUT DESIGN
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 31
+ 
+
+A quality output is one, which meets the requirements of the end user and presents the
+information clearly. In output design it is determined how the information is to be
+displaced for immediate need and also the hard copy output. It is the most important and
+direct source information to the user. Efficient and intelligent output design improves the
+system’s relationship to help user decision-making.
+
+Designing computer output should proceed in an organized, well thought out manner;
+the right output must be developed while ensuring that each output element is designed so
+that people will find the system can use easily and effectively. When analysis design
+computer output, they should:
+
+@ Identify the specific output that is needed to meet the requirements.
+w Select methods for presenting information.
+@ Create document, report, or other formats that contain information produced by
+
+the system.
+
+6.5 DATABASE DESIGN
+
+A database is an organized mechanism that has the capability of storing information
+through which a user can retrieve stored information in an effective and efficient manner.
+The data is the purpose of any database and must _ be protected.
+The database design is a two level process. In the first step, user requirements are
+gathered together and a database is designed which will meet these requirements as
+
+clearly as possible. This step is called Information Level Design and it is taken
+independent of any individual DBMS.
+
+In the second step, this Information level design is transferred into a design for the
+specific DBMS that will be used to implement the system in question. This step is called
+Physical Level Design, concerned with the characteristics of the specific DBMS that will
+be used.
+
+A database design runs parallel with the system design. The organization of the
+
+data in the database is aimed to achieve the following two major objectives.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 32
+
+ 
+ 
+
+@ Data Integrity
+
+w@ Data independence
+
+Normalization is the process of decomposing the attributes in an application, which
+results in a set of tables with very simple structure. The purpose of normalization is to
+make tables as simple as possible. Normalization is carried out in this system for the
+
+following reasons.
+
+e To structure the data so that there is no repetition of data, this helps in saving.
+e To permit simple retrieval of data in response to query and report request.
+
+« To simplify the maintenance of the data through updates, insertions, deletions.
+e To reduce the need to restructure or reorganize data which new application
+
+requirements arise
+RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS):
+
+A relational model represents the database as a collection of relations. Each relation
+resembles a table of values or file of records. In formal relational model terminology, a
+row is called a tuple, a column header is called an attribute and the table is called a
+relation. A relational database consists of a collection of tables, each of which is assigned
+
+a unique name. A row in a tale represents a set of related values.
+RELATIONS, DOMAINS & ATTRIBUTES:
+
+A table is a relation. The rows in a table are called tuples. A tuple is an ordered set of
+n elements. Columns are referred to as attributes. Relationships have been set between
+every table in the database. This ensures both Referential and Entity Relationship
+Integrity. A domain D is a set of atomic values. A common method of specifying a
+domain is to specify a data type from which the data values forming the domain are
+drawn. It is also useful to specify a name for the domain to help in interpreting its values.
+
+Every value in a relation is atomic, that is not decomposable.
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 33
+FARMER’S BUDDY
+
+RELATIONSHIPS:
+
+Table relationships are established using Key. The two main keys of prime
+importance are Primary Key & Foreign Key. Entity Integrity and Referential Integrity
+Relationships can be established with these keys.Entity Integrity enforces that no Primary
+Key can have null values. Referential Integrity enforces that no Primary Key can have null
+values.
+
+Referential Integrity for each distinct Foreign Key value, there must exist a matching
+Primary Key value in the same domain. Other key are Super Key and Candidate Keys.
+Relationships have been set between every table in the database. This ensures both
+
+Referential and Entity Relationship Integrity.
+NORMALIZATION:
+
+As the name implies, it denoted putting things in the normal form. The
+
+application developer via normalization tries to achieve a sensible organization of data into
+
+proper tables and columns and where names can be easily correlated to the data by the user.
+
+Normalization eliminates repeating groups at data and thereby avoids data redundancy
+which proves to be a great burden on the computer resources.
+
+These includes:
+
+w Normalize the data.
+
+w Choose proper names for the tables and columns.
+
+mw Choose the proper name for the data.
+
+First Normal Form:
+
+The First Normal Form states that the domain of an attribute must include
+only atomic values and that the value of any attribute in a tuple must be a single value from
+the domain of that attribute. In other words 1NF disallows “relations within relations” or
+“relations as attribute values within tuples”. The only attribute values permitted by 1NF
+
+are single atomic or indivisible value.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 34
+
+ 
+FARMER'S BUDDY
+
+The first step is to put the data into First Normal Form. This can be donor
+by moving data into separate tables where the data is of similar type in each table. Each table
+is given a Primary Key or Foreign Key as per requirement of the project. In this we form
+new relations for each nonatomic attribute or nested relation. This eliminated repeating
+groups of data. A relation is said to be in first normal form if only if it satisfies the constraints
+
+that contain the primary key only.
+Second Normal Form:
+
+According to Second Normal Form, for relations where primary key contains
+multiple attributes, no nonkey attribute should be functionally dependent on a part of the
+primary key.
+
+In this we decompose and setup a new relation for each partial key with its
+dependent attributes. Make sure to keep a relation with the original primary key and any
+attributes that are fully functionally dependent on it. This step helps in taking out data that is
+only dependant on apart ofthe key.
+
+A relation is said to be in second normal form if and only if it satisfies all the
+first normal form conditions for the primary key and every non-primary key attributes of the
+
+relation is fully dependent on its primary key alone.
+
+Third Normal Form:
+
+According to Third Normal Form, Relation should not have a nonkey attribute
+
+functionally determined by another non-key attribute or by a set of nonkey attributes. That
+
+is, there should be no. transitive dependency on the primary key.
+
+In this we decompose and set up relation that includes the nonkey attributes that
+functionally determines other nonkey attributes. This step is taken to get rid of anything
+that does not depend entirely on the Primary Key.
+
+A relation is said to be in third normal form if only if it is in second normal
+form and more over the non key attributes of the relation should not be depend on other non-
+
+key attribute.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 35
+6.6. TABLE DESIGN
+
+1. Table Name: tbl_district
+
+Table Description: To store the details of district
+
+PRIMARY KEY: district_id
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIELD NAME DATA TYPE | DESCRIPTION
+district id int(100) Id of district
+district name varchar(200) | Name of district
+
+ 
+
+ 
+
+2. Table Name: tbl_place
+
+Table Description: To store the details of place
+
+PRIMARY KEY: place_id
+
+FOREIGN KEY: district_id
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIELD NAME DATA TYPE | DESCRIPTION
+place _id int(100) Id of Place
+place_name varchar(200) | Place name
+district id int(100) Id of district
+
+ 
+
+ 
+
+ 
+
+3. Table Name: tbl_crop
+
+Table Description: To store the details of crop
+PRIMARY KEY: crop_id
+FOREIGN KEY: croptype_id
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIELD NAME DATA TYPE | DESCRIPTION
+crop id int(100) Id of crop
+
+crop name varchar(400) | Crop Name
+crop rate int(100) Crop Rate
+croptype id int(11) Id of croptype
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+36
+4. Table Name: tbl_admin
+
+Table Description: To store the details of admin
+PRIMARY KEY: admin _ id
+
+ 
+
+FIELD NAME
+
+DATA TYPE
+
+DESCRIPTION
+
+ 
+
+admin id
+
+int(11)
+
+Id of admin
+
+ 
+
+admin username
+
+varchar(100)
+
+Admin Username
+
+ 
+
+ 
+
+admin password
+
+ 
+
+varchar(500)
+
+ 
+
+Admin Password
+
+ 
+
+ 
+
+5. Table Name: tbl_croptype
+
+Table Description: To store the details of croptype
+PRIMARY KEY: croptype_id
+
+ 
+
+FIELD NAME
+
+DATA
+TYPE
+
+DESCRIPTION
+
+ 
+
+croptype id
+
+int(100)
+
+Id of the croptype
+
+ 
+
+ 
+
+croptype name
+
+ 
+
+varchar(200)
+
+ 
+
+Croptype Name
+
+ 
+
+ 
+
+6. Table Name: tbl_farmertype
+
+Table Description: To store the details of farmertype
+PRIMARY KEY: farmertype_ id
+
+ 
+
+FIELD NAME
+
+DATA
+TYPE
+
+DESCRIPTION
+
+ 
+
+farmertype_ id
+
+Int(100)
+
+Id of the
+FarmerType
+
+ 
+
+ 
+
+farmertype name
+
+ 
+
+varchar(400)
+
+ 
+
+FarmerType Name
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+FARMER’S BUDDY
+
+ 
+
+a7
+
+ 
+FARMER’S BUDDY
+
+7. Table Name: tbl_fertilizertype
+
+Table descriptions: To store the details of fertilizertype
+PRIMARY KEY: fertilizertype_id
+
+ 
+
+FIELD NAME DATA DESCRIPTION
+TYPE
+fertilizertype id int(100) Id of the fertilizertype
+fertilizertype name varchar(200) | Fertilizertype Name
+fertilizertype description | varchar(400)| Fertilizertype Description
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8. Table Name: tbl_plot
+
+Table Descriptions: To store the details of plot
+PRIMARY KEY: plot id
+FOREIGN KEY: place_id, soiltype_id, user_id
+
+ 
+
+FIELD NAME DATA TYPE DESCRIPTION
+plot_id int(100) Id of the plot
+
+ 
+
+ 
+
+plot_area varchar(300) Plot Area
+place id int(100) Id of place
+
+ 
+
+ 
+
+plot_description varchar(300) Plot Description
+
+ 
+
+soiltype_ id int(100) Id of the soiltype
+
+ 
+
+user_id int(100) Id of the user
+
+ 
+
+plot_status varchar(200) Plot Status
+
+ 
+
+plot_rate int(200) Plot Rate
+
+ 
+
+plot facilities varchar(400) Plot Facilities
+
+ 
+
+plot_no varchar(500) Plot No
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 38
+9. Table Name: tbl_ product
+PRIMARY KEY: product_id
+FOREIGN KEY: croptype_id, farmer_id
+
+Table Descriptions: To store the details of product
+
+ 
+
+FIELD NAME
+
+DATA TYPE
+
+DESCRIPTION
+
+ 
+
+product_id
+
+int(100)
+
+Id of product
+
+ 
+
+croptype_id
+
+int(100)
+
+Id of croptype
+
+ 
+
+product_name
+
+varchar(200)
+
+Product Name
+
+ 
+
+product_rate
+
+int(11)
+
+Product Rate
+
+ 
+
+product_quantity
+
+varchar(100)
+
+Product Quantity
+
+ 
+
+farmer_id
+
+int(100)
+
+Id of farmer
+
+ 
+
+product_expdate
+
+Date
+
+Date
+
+ 
+
+product_image
+
+varchar(400)
+
+Product Image
+
+ 
+
+ 
+
+product_unit
+
+ 
+
+varchar(300)
+
+ 
+
+Product Unit
+
+ 
+
+ 
+
+10 .Table Name: tbl_farmer
+
+Table Descriptions: Details about the farmer
+PRIMARY KEY: farmer_id
+FOREIGN KEY: district_id, farmertype_id
+
+ 
+
+FIELD NAME
+
+DATA TYPE
+
+DESCRIPTION
+
+ 
+
+farmer id
+
+int( 100)
+
+Id of farmer
+
+ 
+
+farmer name
+
+varchar(200)
+
+Id of company
+
+ 
+
+farmer gender
+
+varchar(300)
+
+Id of job
+
+ 
+
+farmer contact
+
+varchar(300)
+
+Name of the shift
+
+ 
+
+farmer email
+
+varchar(500)
+
+Farmer email
+
+ 
+
+farmer address
+
+varchar(300)
+
+Farmer address
+
+ 
+
+district id
+
+int(100)
+
+Id of district
+
+ 
+
+farmertype id
+
+int(11)
+
+Id of farmertype
+
+ 
+
+farmer proof
+
+varchar(500)
+
+Farmer proof
+
+ 
+
+farmer doj
+
+Date
+
+Date of join
+
+ 
+
+farmer status
+
+int(11)
+
+Farmer status
+
+ 
+
+farmer username
+
+varchar(500)
+
+Username of farmer
+
+ 
+
+ 
+
+farmer password
+
+ 
+
+varchar(500)
+
+ 
+
+Password o farmer
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+FARMER’S BUDDY
+
+ 
+
+ 
+
+39
+
+ 
+ 
+ 
+
+   
+ 
+
+     
+
+11. Table Name: tbl_user
+
+Table Descriptions: Stores the user details
+PRIMARY KEY: user_id
+FOREIGN KEY: district_id
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+   
+ 
+
+ 
+
+ 
+
+FIELD NAME DATA TYPE | DESCRIPTION
+
+user id Int(100) Id of user
+
+user name varchar(300) | Name of the user
+
+user_contact varchar(500) | contactof the
+user
+
+user_gender varchar(500) | genter of the user
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+   
+ 
+
+user_address varchar(300) | address of the
+user
+
+district_id Int(100) Id of the
+districts
+
+user proof varchar(500) | Proof of the user
+
+user_username varchar(400) | username of the
+user
+
+user_password varchar(500) | password of the
+
+user
+
+ 
+
+ 
+
+user status
+
+varchar(500)
+
+Status of the user
+
+ 
+
+ 
+
+ 
+
+user_doj
+
+ 
+
+date
+
+ 
+
+ 
+
+Date of join
+
+ 
+
+ 
+
+  
+
+   
+  
+
+ 
+     
+
+12. Table Name: tbl_productcomplaint
+
+Table Descriptions: Details of productcomplaint
+PRIMARY KEY:
+FOREIGN KEY:
+
+complaint_id
+
+farmer_id, user_id, product_id
+
+ 
+
+  
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+  
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIELD NAME DATA DESCRIPTION
+TYPE
+complaint id Int(100) Id of the complaint
+farmer_id Int(100) Id_ of the farmer
+user_id Int(100) Id of the user
+complaint_conten | varchar(300) | Cotent of the complaint
+t
+complaint date Date Date of the complaint
+complaint_replay | varchar(300) | Complaint replay
+complaint status | varchar(300) | Status of the complaint
+product id Int(11) Id of the product
+
+ 
+
+ 
+
+ 
+
+  
+
+FARMER'S BUDDY
+
+      
+
+   
+   
+
+13. Table Name: tbl_plotcomplaint
+
+Table Descriptions: Details of plotcomplaint
+PRIMARY KEY: complaint_id
+FOREIGN KEY: farmer_id, user_id, plot_id
+
+FARMER’S BUDDY
+
+ 
+
+FIELD NAME
+
+DATA TYPE
+
+DESCRIPTION
+
+ 
+
+complaint id
+
+int(100)
+
+Id of the complaint
+
+ 
+
+farmer id
+
+int(11)
+
+Id of farmer
+
+ 
+
+user id
+
+int(11)
+
+Id of user
+
+ 
+
+complaint content
+
+varchar(300)
+
+Complaint Content
+
+ 
+
+complaint date
+
+Date
+
+Date
+
+ 
+
+complaint reply
+
+varchar(300)
+
+Complaint Reply
+
+ 
+
+complaint status
+
+int(50)
+
+Complaint Status
+
+ 
+
+ 
+
+plot id
+
+ 
+
+int(11)
+
+ 
+
+Id of plot
+
+ 
+
+ 
+
+14. Table Name: tbl_ soiltype
+
+Table Descriptions: Details of soiltype
+
+PRIMARY KEY: soiltype_id
+
+ 
+
+FIELD NAME
+
+DATA TYPE
+
+DESCRIPTION
+
+ 
+
+soiltype id
+
+int(100)
+
+Id of the soiltype
+
+ 
+
+soiltype name
+
+varchar(200)
+
+Soiltype Name
+
+ 
+
+soiltype_description
+
+ 
+
+ 
+
+varchar(1000)
+
+ 
+
+Soiltype
+Description
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+ 
+
+41
+FARMER’S BUDDY
+
+15. Table Name: tbl_ cart
+
+Table Description: Details of cart
+PRIMARY KEY: cart_id
+FOREIGN KEY: product_id, user_id
+
+ 
+
+FIELD NAME | DATA TYPE DESCRIPTION
+
+ 
+
+cart id int(100) Id of the cart
+product id int(100) Id of the product
+cart quantity int(100) Cart Quantity
+cart rate int(100) Cart Rate
+
+cart cdate Date Date
+
+user id int(100) Id of the user
+cart ustatus varchar(300) Cart Ustatus
+
+cart pstatus varchar(500) Cart Pstatus
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+16. Table Name: tbl_rating
+
+Table Description: Details of farmer rating
+PRIMARY KEY: rating id
+FOREIGN KEY: farmer id, user id
+FIELD NAME | DATATYPE | DESCRIPTION
+rating id int(100) Id of the rating
+farmer id int(100) Id of the farmer
+user id int(100) Id of the user
+rating value varchar(100) Rating Value
+rating comment | varchar(300) Rating Comment
+rating date Date Date
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 42
+17. Table Name: tbl_
+
+plotgallery
+
+   
+
+Table Descriptions: details about plotgallery
+PRIMARY KEY: plotgallery_id
+FOREIGN KEY: plot_id
+
+ 
+
+FIELD NAME
+
+DATA TYPE
+
+DESCRIPTION
+
+ 
+
+plotgallery id
+
+int(100)
+
+Id of the plotgallery
+
+ 
+
+plot id
+
+int(100)
+
+Id of the plot
+
+ 
+
+plotgallery caption
+
+varchar(200)
+
+Plotgallery Caption
+
+ 
+
+ 
+
+ 
+
+plot_image
+
+varchar(600)
+
+ 
+
+Plot Image
+
+ 
+
+ 
+
+FARMER’S BUDDY
+
+18. Table Name: tbl_plotbooking
+
+Table Descriptions: Details of the plotbooking
+PRIMARY KEY: plotbooking_id
+FOREIGN KEY: plot_id, farmer_id
+
+ 
+
+FIELD NAME DATA
+TYPE
+Int(100)
+Int(100)
+Int(100)
+
+Date
+WVarchar(300)
+Varchar(400)
+
+Varchar(500)
+
+DESCRIPTION
+
+ 
+
+plotbooking id
+
+Plot_id
+
+Farmer_id
+
+Plotbooking date
+Plotbooking pstatus
+Plotbooking duration
+plotbooking description
+
+Id of the plotbooking
+Id of the plot
+
+Id of the farmer
+
+Date of booking
+Plotbooking Pstatus
+Plotbooking Duration
+Plotbooking
+Description
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 43
+FARMER’S BUDDY
+
+CODING
+
+e Newfarmer.php
+
+<?php
+include("../Connection/Connection.php");
+
+if(isset($_ POST["btnsubmit"]))
+{
+
+$sel="select * from tbl farmer where farmer_username="".$ POST["txtusername"].""";
+
+/lecho $sel;
+$rows=mysql_query($sel);
+$count=mysql_num_rows($rows);
+
+if($count>0)
+{
+
+}
+
+else
+
+{
+$Farmertype=$ POST["slctfarmertype"];
+
+echo "<script>alert('already exist')</script>";
+
+$Name=$_ POST["txtname"];
+$Gender-$_POST["rdbgender"];
+$Address—$ POST["txtaddress"];
+$Contact-$_POST["txtcontact"];
+$Email=$_POST["txtemail"];
+$district=$_POST["slctdistrict");
+$Doj=$_POST["txtdate"];
+$Username=$_POST["txtusername"];
+$Password=$_POST["txtpassword"];
+
+$Proof=$ FILES["fileproof]['name'];
+$temp-$_FILES['fileproof]['tmp_name'};
+move _ uploaded _file($temp,"../Farmer/Proof/".$Proof);
+
+$ins="insert into
+tbl_farmer(farmer_name,farmer_gender,farmer_address,farmer_contact,farmer_email,district
+_id,farmer_proof,farmertype id,farmer_ doj,farmer username,farmer_password)values('$Na
+me','$Gender’,'$Address','$Contact','$Email','$district’,'$Proof,'$Farmertype','$Doj','$Userna
+me','$Password')";
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 45
+FARMER’S BUDDY
+
+mysql_query($ins);
+echo "inserted":
+
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN™http://www.w3.org/TR/xhtml1/DTD/xhtml | -transitional.dtd">
+<html! xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv—"Content-Type" content="text/html; charset=utf-8" />
+<title>NewFarmer</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php include("Header.php")?>
+</head>
+
+<body>
+<form action="" method="post" enctype="
+<div align="center" id="tab">
+
+multipart/form-data" name="form1" id="form1">
+
+<h2>NEW FARMER</h2>
+
+<table width="461" border="1">
+
+<tr>
+
+<td width="155">Select Farmer type</td>
+
+<td colspan="2"><select name="slctfarmertype" id="slctfarmertype" required>
+<option value="">----Select----</option>
+
+<?php
+
+$sel="select * from tbl_farmertype";
+$res= mysql _query($sel);
+while($data=mysql_ fetch array($res))
+t
+
+>
+<option value="<?php echo $data["farmertype_id"];?>"><?php echo
+$data["farmertype_name"];?></option>
+
+<?php
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 46
+
+ 
+
+ 
+
+ 
+FARMER’S BUDDY
+
+>
+
+</select></td>
+</tr>
+<tr>
+<td>Name</td>
+<td width="144"><input type="text" required name="txtname" id="txtname" pattern="[a-
+zA-Z, ]{3,}" autocomplete="off" title="minimum 3 letters” /></td>
+<td width="140">&nbsp;</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" required name="rdbgender" id="rdbgender" value="male" />
+Male</td>
+<td><input type="radio" required name="rdbgender" id="rdbgender" value="female" />
+Female</td>
+
+</tr>
+<tr>
+<td>Address</td>
+<td colspan="2"><textarea name="txtaddress” id="txtaddress" cols="45" rows="5"
+requiredpattern="[a-zA-Z] {3,} "autocomplete="off"></textarea></td>
+</tr>
+<tr>
+<td>Contact</td>
+<td colspan="2"><input type="text” name="txtcontact" id="txtcontact" pattern="[0-
+9]{10,10}" requiredautocomplete="0ff'/></td>
+</tr>
+<tr>
+<td>Email</td>
+<td colspan="2"><input type="email"” name="txtemail"
+id="txtemail"autocomplete="off"pattern—"[a-zA-Z @.]{3,}" requireda /></td>
+</tr>
+<tr>
+<td>Select District</td>
+<td colspan="2"><select name="slctdistrict" id="slctdistrict" required name="slctdistrict">
+<option>----Select----</option>
+<?php
+
+$sel="select * from tbl_ district";
+
+$res= mysql query($sel);
+
+while($data-mysql_fetch_array($res))
+
+{
+
+o>
+<option value="<?php echo $data["district_id"];?>"><?php echo
+$data["district_name"];?></option>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 47
+
+ 
+
+ 
+
+ 
+FARMER'S BUDDY
+
+<?php
+
+o>
+
+</select></td>
+
+</tr>
+
+<tr>
+
+<td>Proof</td>
+
+<td colspan="2"><input type="file" name="fileproof" id="fileproof
+required="required"/></td>
+
+</tr>
+
+<tr>
+
+<td>Doj</td>
+
+<td colspan="2"><input type="date"” name="txtdate" required id="txtdate" /></td>
+
+</tr>
+
+<tr>
+
+<td>Username</td>
+
+<td colspan="2"><input type="text" name="txtusername" id="txtusername” required /></td>
+</tr>
+
+<tr>
+
+<td>Password</td>
+
+<td colspan="2"><input type="password" name="txtpassword" id="txtpassword"” required
+/></td>
+
+</tr>
+
+<tr>
+
+<td colspan="2" align="center"><input type="submit" name="btnsubmit" id="btnsubmit”
+value="Submit" required/>
+
+="
+
+<input type="reset" name="btncancel" id="btncancel"” value
+</tr>
+</table>
+</div>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+="
+
+cancel" formnovalidate/></td>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 48
+
+ 
+
+ 
+FARMER'S BUDDY
+
+<br/>
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<?php include("Footer.php")?>
+</body>
+
+</html
+
+e NewUser.php
+
+<?php
+include("../Connection/Connection.php");
+
+iffisset($_ POST["btnsubmit"]))
+{
+
+$Username=$ POST["txtusername"];
+
+$Contact=$_POST["txtusercontact"];
+$Gender=$_POST["rdbgender"];
+$Address=$ POST["txtaddress"];
+$district=$ POST["slctdistrict"];
+$Doj=$_ POST["txtdate"};
+$Username=$_POST["txtusername"];
+$Password=$ POST["txtpassword"];
+
+$Proof=$_FILES["fileproof"]['name'];
+$temp-$ FILES['fileproof]['tmp name’);
+move uploaded _file($temp,”../User/proof/".$Proof);
+
+$ins="insert into
+tbl user(user_ name,user_ contact,user_gender,user_address,district idjuser_proof,user_usern
+ame,user_password,user_ status,user doj)values(‘$Username','$Contact','$Gender','bAddress','
+$district’,'$Proof,'$Username','$Password',0,'SDoj')";
+
+//fecho $ins;
+
+mysql_query($ins);
+
+echo "inserted";
+
+}
+
+a>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlins="http:/Awww.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NewUser</title>
+<script type="text/javascript">
+
+function preventBack() { window.history.forward(); }
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 49
+
+ 
+
+ 
+
+ 
+ 
+
+FARMER’S BUDDY
+
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php include("Header.php")?>
+
+</head>
+
+<body>
+
+<form action="" method="post" enctype="multipart/form-data" name="form 1" id="form1">
+<div align="center" id="tab">
+
+<h2>NEW USER</h2>
+
+<table width="400" border="1">
+
+<tr>
+
+<td width="118">User Name</td>
+
+<td colspan="2"><input type="text" name="txtusername" id="txtusername" required
+pattern="[a-zA-Z. ]{3,}" autocomplete="off" title="minimum 3 letters" /></td>
+
+</tr>
+
+<tr>
+
+<td>User Contact</td>
+
+<td colspan="2"><input type="text" name="txtusercontact" id="txtusercontact" pattern="[0-
+9]{10,10}" requiredautocomplete="off" /></td>
+
+</tr>
+
+<tr>
+
+<td height="3 1">Gender</td>
+
+<td colspan="2"><input type="radio" name="rdbgender" id="rdbgender" value="M"
+required />
+Male
+<input type="radio" name="rdbgender" required id="rdbgender" value="F" />
+Female</td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td colspan="2"><textarea name="txtaddress" id="txtadress" cols="45" rows="5" required
+pattern="[a-zA-Z]{3,}" autocomplete="off"></textarea></td>
+</tr>
+<tr
+<td>Select district</td>
+<td colspan="2"><select name="slctdistrict" id="slctdistrict” required>
+<?php
+$sel="select * from tbl_district";
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+t
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 50
+FARMER’S BUDDY
+
+<option value="<?php echo $data["district_id"];?>"><?php echo
+$data["district_name"];?></option>
+
+<?php
+;
+
+>
+
+</select></td>
+
+</tr>
+
+<tr>
+
+<td>Proof</td>
+
+<td colspan="2"><input type="file" name="fileproof" id="fileproof"
+required="required"/></td>
+
+</tr>
+
+<tr>
+
+<td>Username</td>
+
+<td colspan="2"><input type="text" name="txtusername2" id="txtusername2" required
+[></td>
+
+</tr>
+
+<tr>
+<td>Password</td>
+<td colspan="2"><input type="password" name="txtpassword" id="txtpassword"
+
+required="required"/></td>
+
+</tr>
+
+<tr>
+
+<td>Doj</td>
+
+<td colspan="2"><input type="date” name="txtdate" required id="txtdate" [></td>
+</tr>
+
+<tr>
+
+<td colspan="3"><div align="center">
+
+<input type="submit" name="btnsubmit" id="btnsubmit" value="Submit" required />
+<input type="reset" name="btnsubmit2” id="btnsubmit2" value="cancel" formnovalidate />
+</div></td>
+
+</tr>
+
+</table>
+
+</div>
+
+</form>
+
+<br/>
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 51
+
+ 
+ 
+
+___FARMER’S BUDDY
+
+   
+   
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<?php include("Footer.php")?>
+</body>
+
+</html>
+
+e AddProduct.ph
+
+<?php
+include("../Connection/Connection.php");
+session _start();
+if(isset($_POST["btnsubmit"]))
+
+{
+$edid=$_GET["edit"];
+
+$croptype=$_POST["slctcroptype"];
+$quantity=$_POST["txtquantity"];
+$productname=$_POST["txtproductname");
+Srate=$_POST["txtrate"];
+
+Sexpdate=$_POST["txtdate"];
+
+Sunit=$_POST["slctunit"];
+Simage=$_FILES["fileimage"][‘name');
+$temp=$_FILES['fileimage']['tmp_name'];
+move_uploaded_file($temp,"../Farmer/productimg/".$image);
+if($edid==")
+
+$ins="insert into
+
+tbl | product(product_name,product_rate,product_quantity,farmer_id,croptype_id,product_exp
+date,product_image,product_unit)values(‘$productname','$rate’,'$quantity’,".§ SESSION 'far
+merid']."",'$croptype','Sexpdate','Simage’,'Sunit')";
+
+mysql_query($ins);
+
+/lecho $ins;
+
+echo "inserted";
+
+}
+
+else
+
+{
+
+ 
+
+if(Simage=="")
+
+t
+
+}
+Supd="update tbl_product set
+
+croptype_id=".$croptype.".product_quantity=", Squantity."’ product_name=""$productname.
+
+"product _rate="".$rate. "product _expdate="". $expdate." produ ct_image="$im age’ where
+product _i d=" Sedid. nym
+
+Simage=$_POST['hdfile’);
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+52
+mysql _query($upd);
+
+/lecho $upd;
+
+echo "<script> alert(‘updated")</script>";
+header("location:AddProduct.php");
+
+}
+}
+
+if($_GET[‘delid'])
+
+{
+$del="delete from tbl_product where product_id="".$_GET["delid"].""";
+mysql_query($del);
+echo "<script> alert('Deleted")</script>";
+header("location:AddProduct.php");
+
+}
+if($ GET['edit'])
+{
+
+$sel="select *from tbl product pr inner join tbl_croptype c on c.croptype id=pr.croptype id
+where product _id=".$ GET["edit"]."";
+echo $sel;
+
+$row=mysql_query($sel);
+
+$data=mysql_fetch_array($row);
+
+$croptype=$data['croptype_id’];
+
+$quantity—$data['product_quantity'];
+
+$productname=$data[‘product_name'];
+
+$expdate=$data['product_expdate'];
+
+$rate—$data['product_rate'];
+$image=$data['product_image'];
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN™http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv—"Content-Type" content="text/html; charset=utf-8" />
+<title>AddProduct</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 53
+
+ 
+ 
+
+<?php
+include("Header.php");
+>
+
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" name="form 1" id="form1">
+<div id="tab" align="center">
+<h2>Add Product</h2>
+<table width="400" border="1">
+<tr
+<td>Select croptype</td>
+<td><select name="slctcroptype” id="slctcroptype" required>
+<option>----Select----</option>
+<?php
+$sel="select * from tbl_croptype";
+$res= mysql_query($sel);
+while($data=mysql_ fetch _array($res))
+{
+
+)>
+<option value="<?php echo $data["croptype_id"];?>"<?php
+if(Scroptype==$data["croptype_id"]){ echo "selected";}?>><?php echo
+$data["croptype_name"];?></option>
+
+<?php
+>
+
+</select></td>
+</tr>
+
+<tr>
+<td>Quantity</td>
+
+<td><input type="text" name="txtquantity" required="required" id="txtquantity" value=
+"<?php echo$quantity ;?>"/><select name="slctunit" id="slctunit" required>
+<option>----Select----</option>
+
+<option>g</option>
+
+<option>kg</option></select></td>
+
+</tr>
+
+<tr>
+
+<td>Product Name</td>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 54
+
+ 
+ 
+
+<td><input type="text" name="txtproductname” id="txtproductname" required="required"
+value= "<?php echo$productname ;?>" /></td>
+
+</tr>
+
+<tr>
+
+<td>Rate</td>
+
+<td><input type="text" name="txtrate" required="required" id="txtrate" value= "<?php
+echo$rate ;?>" /></td>
+
+</tr>
+
+<tr>
+
+<td>Exp Date</td>
+
+<td><input type="date" name="txtdate” required="required" id="txtdate" value= "<?php
+echo$expdate ;?>" /></td>
+
+</tr>
+
+<tr>
+
+<td>Image</td>
+
+<input type="hidden" name="hdfile" id="hdfile” value="<?php echo Simage ;?>" />
+<td><input type="file" name="fileimage" required="required" id="fileimage" /><?php echo
+$image ;?></td>
+
+</tr>
+
+<tr>
+
+<td colspan="2" align="center"><input type="submit" name="btnsubmit" id="btnsubmit"
+value="Submit" required="required" />
+
+<input type="reset" name="btncancel" id="btncancel" value="Cancel"
+formnovalidate="formnovalidate" /></td>
+
+</tr>
+
+</table>
+
+<table width ="400" border="1">
+
+<tr>
+
+<td>sIno</td>
+
+<td>Croptype</td>
+
+<td>Quantity</td>
+
+<td>Productname</td>
+
+<td>Rate</td>
+<td>Expdate</td>
+<td>Image</td>
+<td>Delete</td>
+<td>Edit</td>
+</tr>
+
+<?php
+
+$sel="select *from tbl_product pr inner join tbl_croptype c on c.croptype_id=pr.croptype_id
+where farmer_id="".$_SESSION["farmerid”].""";
+
+/lecho $sel;
+
+$rows=mysql_query($sel);
+
+$i=1;
+
+while($data= mysql_fetch_array(Srows))
+
+TATBHARATH ARTS AND SCIENCE COLLEGE 55
+ 
+
+FARMER'S BUDDY
+
+<tr
+<td><?php echo $i?></td>
+
+<td><?php echo $data["croptype_name"];?></td>
+<td><?php echo $data["product_quantity"];?></td>
+<td><?php echo $data["product_name"};?></td>
+<td><?php echo $data["product_rate"];?></td>
+<td><2php echo $data["product_expdate"];?></td>
+<td><img sre="../farmer/productimg/<?php echo $data["product_image"];?>" width="150"
+height="100" /></td>
+
+<td><a href="AddProduct.php?delid=<?php echo $data['product_id'];?>"><img
+src="../Icons/delete.png" height="40px" width="40px"></a></td>
+
+<td><a href="AddProduct.php?edit=<?php echo $data['product_id'];?>"><img
+src="../Icons/edit.png” height="40px" width="40px"></a></td>
+
+</tr>
+
+<?php
+
+</table>
+</div>
+
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+
+</body>
+</html>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 56
+
+ 
+
+ 
+
+ 
+
+ 
+FARMER’S BUDDY
+
+e AddPlot.php
+
+<?php
+include("../Connection/Connection. php");
+session start();
+if(isset($_ POST["btnsubmit"]))
+t
+
+$edid=$_GET["edit"];
+
+$Place=$ POST["slctplace"];
+$soiltype-$_ POST["slctsoiltype"];
+$area=$ POST["txtplotarea"];
+$description=$ POST["txtdescription"];
+$rate—$_POST["txtrate"];
+
+$facilities=$ POST["txtfacilities"];
+$plotno=$_POST["txtplotno"];
+if(Sedid==")
+
+{
+
+$ins="insert into
+tbl plot(plot_no,plot area,place id,soiltype id,plot description,user id,plot status,plot rate,
+plot_facilities)values(‘$plotno’,'$area’,'$Place','$soiltype’,'$description’,'".$ SESSION['userid'
+]."",0,$rate,'$facilities')";
+
+mysql _query($ins);
+
+/fecho $ins:
+
+echo "inserted";
+
+}
+
+else
+
+{
+
+$upd="update tbl_plot set
+place_id=".$Place.",soiltype_id=".$soiltype.",plot_description—".$description.",plot_rate='
+" $rate."",plot_facilities=".$facilities.""plot_area—'$area’ where plot_id="".$edid.""";
+
+mysql_query($upd);
+
+/lecho $upd;
+
+echo "<script alert(‘updated")</script>";
+
+header("location:AddPlotDetails.php");
+
+}
+}
+
+if($_GET['delid'])
+{
+
+$del="delete from tbl_plot where plot_id=".$ GET["delid"].""";
+mysql_query($del);
+
+echo "<script> alert('Deleted')</script=";
+header("location:AddPlotDetails.php");
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 57
+
+ 
+FARMER’S BUDDY
+
+i
+if($_ GET[edit'))
+
+$sel="select *from tbl_plot pl inner join tbl_place p on p.place_id=pl.place_id inner
+join tbl district dl on p.district_id=dl.district_id inner join tbl_soiltype s on
+s.soiltype_id=pl.soiltype id where plot id=".$ GET["edit"]."";
+
+echo $sel;
+
+$row=mysql query($sel);
+
+$data=mysql fetch array($row);
+
+$district=$data['district_id'];
+
+$soiltype=$data['soiltype_id'];
+
+$place=$data['place_id'];
+
+$area=$data['plot_area'];
+
+$did=$data['soiltype_id'];
+
+$description=$data['plot_description'];
+
+$rate=$data['plot_rate'];
+$facilities-$data['plot_facilities'];
+
+}
+
+v>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://Awww.w3.org/TR/xhtml1/DTD/xhtml1 -transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AddPlotDetails</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</seript>
+<?php include("Header.php")?>
+
+<script src="../Jq/jquery.js"></script>
+<script>
+function getplace(did)
+
+$.ajax({url: 'AjaxPlace.php?dsid—'+did,
+type: 'GET’,
+success: function(data) {
+
+$(‘#slctplace').html(data);
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 58
+FARMER’S BUDDY
+
+}
+
+</script>
+</head>
+
+<body>
+
+<form id="form1” name="form1" method="post" action="">
+<div align="center" id="tab">
+
+<h2>Add Plot Details</h2>
+
+<table width="300" border="1" cellspacing="0" cellpadding="0">
+
+<tr>
+
+<td>Plotno</td>
+
+<td><input type="text" name="txtplotno" required="required" id="txtplotno" /></td>
+</tr>
+
+<tr>
+
+<td width="111">Select District</td>
+
+<td width="183"><label for="slctdistrict"></label>
+<select name="slctdistrict" id="slctdistrict" required onchange—"getplace(this.value)">
+<option>----Select----</option>
+<?php
+$sel="select * from tbl_district";
+$res= mysql query($sel);
+while($data=mysql_ fetch array($res))
+{
+
+>
+<option value="<?php echo $data["district_id"];?>"<?php if($district——$data["district_id"]) {
+echo "selected";}?>><?php echo $data["district_name"];?></option>
+
+<?php
+
+</select></td>
+
+<tr>
+
+<tr>
+
+<td>Select Place</td>
+
+<td><label for="slctplace"></label>
+
+<select name="slctplace" id="slctplace" required>
+<option>----Select----</option>
+
+<?php
+
+$sel="select * from tbl_place";
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 59
+
+ 
+ 
+
+Bh ARAMETERSAL LIU
+
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+{
+
+>
+
+<option value="<?php echo $data["place_id"];?2>"<?php if($place——$data["place_id"]){ echo
+"selected"; }?>><?php echo $data["place_name"];?></option>
+
+<?php
+
+</select></td>
+
+</tr>
+
+<tr>
+
+<td>Select SoilType</td>
+
+<td><label for="slctsoiltype"></label>
+
+<select name="slctsoiltype" id="slctsoiltype” required >
+<option>----Select----</option>
+
+<?php
+
+$sel="select * from tbl_soiltype";
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+f
+
+4
+
+>
+<option value="<?php echo $data["soiltype_id"];?>"<?php
+if(Ssoiltype——$data["soiltype_id"]){ echo "selected";}?>><?php echo
+$data["soiltype_name"];?></option>
+
+<?php
+}
+
+>
+</select><label for="txtselectsoiltype"></label></td>
+</tr>
+<tr>
+<td>Plot Area</td>
+<td><label for="txtplotarea"></label>
+<input type="text" name="txtplotarea" required="required” id="txtplotarea" value= "<?php
+echo$area ;?>" /></td>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 60
+
+ 
+
+ 
+</tr>
+
+<tr>
+
+<td>Description</td>
+
+<td><label for="txtdescription"></label>
+
+<textarea name="txtdescription” required="required" pattern="[a-zA-
+Z]{3,}"autocomplete="off" id="txtdescription" cols="45" rows="5"><?php echo
+$description;?></textarea></td>
+
+</tr>
+
+<tr>
+
+<td>Rate</td>
+
+<td><label for="txtrate"></label>
+
+<input type="text" name="txtrate" required="required" id="txtrate" value= "<?php
+echo$rate ;?>" /></td>
+
+</tr>
+
+<tr>
+
+<td>Facilities</td>
+
+<td><label for="txtfacilities"></label>
+
+<textarea name="txtfacilities"required="required" pattern="[a-zA-
+Z]{3,}"autocomplete="off" id="txtfacilities" cols="45" rows="5"><?php echo
+$facilities;?></textarea></td>
+
+</tr>
+
+<tr>
+
+<td colspan="2"><div align="center">
+
+<input type="submit" name="btnsubmit" id="btnsubmit" value="Submit"
+required="required” />
+
+<input type="reset" name="btncancel" id="btncancel" value
+formnovalidate="formnovalidate" />
+
+</div></td>
+
+</tr>
+
+—"
+
+cancel"
+
+</table>
+
+<table width ="400" border="1">
+<tr>
+
+<td>slno</td>
+<td>District</td>
+<td>Place</td>
+<td>SoilType</td>
+<td>Plot Area</td>
+<td>Description</td>
+<td>Rate</td>
+<td>Facilities</td>
+<td>Delete</td>
+<td>Edit</td>
+
+</tr>
+
+<?php
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+ 
+
+61
+
+ 
+FARMER'S BUDDY
+
+$sel="select *from tbl_plot pl inner join tbl_place p on p.place_id=pl.place_id inner join
+tbl district dl on p.district_id=dl.district_id inner join thl_soiltype s on
+s.soiltype_id=pl.soiltype_id where user_id='".6 SESSION["userid"].""";
+
+/fecho $sel;
+
+$rows=mysql_query($sel);
+
+$i=1;
+
+while($data= mysql fetch array($rows))
+
+t
+
+?>
+<tr>
+<td><?php echo $1?></td>
+
+<td><?php echo $data["district_name"];?></td>
+<td><?php echo $data["place_name"];?></td>
+<td><?php echo $data["soiltype_name"];?></td>
+<td><?php echo $data["plot_area"];?></td>
+<td><?php echo $data["plot_description"];?></td>
+<td><?php echo $data["plot_rate"];?></td>
+<td><?php echo $data["plot_facilities"];?></td>
+<td><a href="AddPlotDetails.php?delid=<?php echo $data['plot_id'];?>"><img
+src="../Icons/delete.png" height—"40px" width="40px"></a></td>
+<td><a href="AddPlotDetails.php?edit=<?php echo $data['plot_id'];?>"><img
+src="../Icons/edit.png" height="40px" width="40px"></a></td>
+</tr>
+
+<?php
+Sit;
+
+</table>
+</div>
+
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 62
+
+ 
+FARMER’S BUDDY
+
+<?php include("Footer.php")?>
+</body>
+</html>
+
+e BuyProduct.php
+
+<?php
+include("../Connection/Connection.php");
+session_start();
+$date=date("Y-m-d");
+$productid=$ GET["productid"];
+if(isset($ POST["btnbuy"]))
+{
+$quantity-$ POST["txtquantity"];
+$rate—$_POST["txtrate"];
+
+$ins="insert into
+tbl_cart(product_id,cart_quantity,cart_rate,cart_cdate,user_id,cart_pstatus,cart_ustatus)values
+(‘$productid','$quantity','$rate’,'$date',"".6 SESSION['userid']."",0,0)";
+
+mysql_query($ins);
+
+$sel=mysql_query("select MAX(cart_id) as cartid from tbl_cart");
+$dat=mysql_ fetch array($sel);
+echo $cartid=$dat['cartid'];
+
+echo "inserted";
+
+$availablequantity—$_GET['quantity’];
+$balancequa=$availablequantity-$quantity;
+
+$upd="update tbl_product set product_quantity—$balancequa where
+product_id=".$ GET["productid”]."";
+
+mysql_query($upd);
+
+header("Location: Payment/First.php?Id=$cartid& Amt=$rate");
+
+>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtmlL/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv—"Content-Type" content="text/html;, charset=utf-8" />
+<title>By Product</title>
+<script type="text/javascript">
+
+function preventBack() { window.history.forward(); }
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 63
+
+ 
+FARMER'S BUDDY
+
+   
+ 
+ 
+
+  
+ 
+    
+   
+   
+   
+   
+   
+   
+   
+    
+    
+ 
+ 
+
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+
+</script>
+
+<?php include("Header.php")?>
+
+<script>
+
+function gettotal(a)
+
+{
+var rate=document.getElementByld("prate").value;
+total=rate*a;
+document.getElementByld("txtrate").value=total;
+
+}
+
+</script>
+
+</head>
+
+ 
+    
+   
+   
+    
+    
+ 
+ 
+
+<body>
+<form id="form1" name="form1" method="post” action="">
+
+<div align="center” id="tab">
+
+<h2>By Product</h2>
+
+<table width="400" border="1">
+
+<?php
+
+$sel="select *from tbl product where product_id="".$_GET['productid']."";
+
+ 
+ 
+    
+  
+
+$rows=mysql_query($sel);
+$data= mysql_fetch_array($rows);
+>
+
+    
+    
+   
+   
+   
+     
+   
+   
+   
+   
+    
+ 
+   
+    
+ 
+   
+   
+   
+    
+    
+   
+
+<tr>
+<td width="283">Name</td>
+<td width="101"><?php echo $data["product_name"];?></td>
+<tr>
+<tr>
+<td>Rate</td>
+<td><input type="text" id="prate" name="prate" value="<?php echo
+$data["product_rate"];?>" readonly="readonly" /></td>
+</tr>
+<tr>
+<td>Date</td>
+<td><?php echo $date;?></td>
+</tr>
+<tr>
+<td colspan="2"><div align="center">User Details</div></td>
+</tr>
+<?php
+$se="select *from tbl_user u inner join tbl_district d on u.district_id=d.district_id where
+user_id="".$ SESSION['userid’]."";
+$ro=mysql_query($se);
+while($datal=mysql_fetch_array($ro))
+t
+
+TAIBHARATH ARTS AND SCIENCE COLLEGE 64
+ 
+
+>
+<tr>
+<td>Name</td>
+<td><?php echo $datal["user_name"];?></td>
+</tr>
+<tr>
+<td>Contact</td>
+<td><?php echo $datal["user_contact"];?></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><?php echo $datal["user_address"];?></td>
+</tr>
+<tr>
+<td>District</td>
+<td><?php echo $data1["district_name"];?></td>
+</tr>
+<?php
+}
+>
+<tr>
+<td>Enter Quantity</td>
+<td><input type="text" name="txtquantity" required="required" id="txtquantity"
+onblur="gettotal(this.value)" /></td>
+</tr>
+<tr
+<td>Total Rate</td>
+<td><input type="text" name="txtrate" required="required" id="txtrate"
+readonly="readonly" /></td>
+</tr>
+<tr>
+<td colspan="2"><div align="center">
+<input type="submit" name="btnbuy” id="btnbuy" value="Buy" required="required” />
+</div></td>
+</tr>
+</table>
+</div>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+AT RHARATH ARTS AND SCIENCE COLLEGE 65
+ 
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<?php include("Footer.php")?>
+
+</body>
+</html>
+
+e PlotBooking.php
+
+<?php
+include("../Connection/Connection.php");
+session. start();
+$date=date("Y-m-d");
+$plotid—$_GET["plotid"];
+if(isset($_ POST["btnsubmit"]))
+{
+$duration=$_POST["txtduration"];
+$description=$ POST["txtdescription"];
+
+$ins="insert into
+
+tbl_plotbooking(plot_id,farmer_id,plotbooking date,plotbooking pstatus,plotbooking descri
+ption,plotbooking duration)values(‘$plotid’,'".6_ SESSION['farmerid'].",'$date',0,'$descriptio
+n’,'$duration’)";
+
+mysql_query($ins);
+
+echo "inserted";
+
+}
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmins="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Plot Booking</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 66
+
+ 
+ 
+
+<?php include("Header.php")?>
+</head>
+
+<body>
+
+<form id="form1" name="form1" method="post" action="">
+<div align="center" id="tab">
+
+<h2>Plot Booking</h2>
+
+<table width="400" border="1">
+
+<?php
+
+$sel="select * from tbl farmer where farmer_id=".$_SESSION['farmerid’].""";
+$row=mysql_query($sel);
+
+$data=mysql_fetch_array($row);
+
+>
+<tr>
+<td>Name</td>
+<td><?php echo $data["farmer_name"];?></td>
+</tr>
+<tr>
+<td>Contact</td>
+<td><?php echo $data["farmer_contact"];?></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><?php echo $data["farmer_address"];?></td>
+</tr>
+<tr>
+<td>Date</td>
+<td><?php echo $date;?></td>
+</tr>
+<tr>
+<td>Duration</td>
+<td><input type="text" name="txtduration" required="required" autocomplete="off"
+id="txtduration" /></td>
+</tr>
+<tr>
+<td>Description</td>
+<td><textarea name="txtdescription" id="txtdescription" required="required" pattern="[a-
+zA-Z]{3,}" autocomplete="off" cols="45" rows="5"></textarea></td>
+</tr>
+<tr
+<td><input type="submit" name="btnsubmit" id="btnsubmit" value="Submit"
+required="required" /></td>
+<td><input type="reset" name="btncancel" id="btncancel" value="Cancel"
+formnovalidate="formnovalidate" /></td>
+</tr>
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 67
+
+ 
+
+ 
+FARMER’S BUDDY
+
+</table>
+</div>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+</body>
+</html>
+
+e AddPlotComplaint.php
+
+<?php
+include("../Connection/Connection.php");
+session start();
+
+$date=date("Y-m-d");
+
+$userid=$ GET["userid"];
+$plotid=$_GET["plotid”);
+
+$content=$ POST["txtcomplaint"];
+
+if(isset($_ POST["btnsubmit"]))
+
+{
+
+$ins="insert into
+tbl_plotcomplaint(plot_id,farmer idjuser_id,complaint content,complaint date,complaint re
+play,complaint_status )values('$plotid',".$ SESSION['farmerid'].",'$userid','$content','$date',
+0,0)";
+
+mysql _query($ins);
+
+echo "inserted";
+
+}
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 68
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlins="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv—"Content-Type" content="text/html; charset—utf-8" />
+<title>Add Plot Complaint</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php include("Header.php")?>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+<div align="center" id="tab">
+
+<h2>Plot Complaint</h2>
+
+<table width="500" border="4" cellpadding="2">
+
+<tr>
+
+<th height="40" scope="col">Date</th>
+<th><?php echo $date;?></th>
+
+</tr>
+
+<tr>
+
+<td height="47">Add Complaint</td>
+<td><textarea name="txtcomplaint" required
+
+required” pattern="[a-zA-
+Z]{3,}"autocomplete="off" id="txtcomplaint" cols="45" rows="5"></textarea></td>
+</tr>
+
+<tr>
+
+<td height-"34" colspan="2"><div align="center">
+<input type="submit" name="btnsubmit" id="btnsubmit” value="Submit" />
+</div></td>
+
+</tr>
+
+</table>
+
+</div>
+
+</form>
+
+<br/>
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/><br/>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+ 
+
+69
+
+ 
+<br/>
+<br/>
+<?php include("Footer.php")?>
+
+</body>
+</html>
+
+e AddProductComplaint.php
+
+<?php
+include("../Connection/Connection.php");
+session_start();
+
+$date=date("Y-m-d");
+
+$farmerid=$ GET["farmerid"];
+$productid=$ GET["productid"];
+$content=$_POST["txtcomplaint"];
+if(isset($_ POST["btnsubmit"]))
+
+{
+
+$ins="insert into
+tbl_productcomplaint(product_ id,farmer idjuser_id,complaint content,complaint date,compl
+aint reply,complaint_status)values(‘$productid’,'$farmerid',"".$ SESSION['userid'].",'$conte
+nt',"$date',0,0)";
+
+mysql _query($ins);
+echo $ins;
+
+echo "inserted";
+
+}
+
+ed
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml 1 -transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv—"Content-Type" content="text/html; charset=utf-8" />
+<title>Add Product Complaint</title>
+
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+
+</script>
+
+<?php include("Header.php")?>
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 70
+
+ 
+FARMER’S BUDDY
+
+</head>
+
+<body>
+
+<form id="form1" name="form1" method
+<div align="center" id="tab">
+<h2>Add Product Complaint</h2>
+<table width="500" border="4" cellpadding="2">
+
+<tr>
+
+<th height="40" scope="col">Date</th>
+
+<th><?php echo $date;?></th>
+
+</tr>
+
+<tr>
+
+<td height="47">Add Complaint</td>
+
+<td><textarea name"txtcomplaint"required="required" pattern="[a-zA-
+Z2|{3,}"autocomplete="off id="txtcomplaint" cols="45" rows="5"></textarea></td>
+</tr>
+
+<tr>
+
+<td height="34" colspan="2"><div align="center">
+
+<input type="submit" name="btnsubmit" id="btnsubmit" value="Submit" required />
+</div></td>
+
+</tr>
+
+</table>
+
+</div>
+
+</form>
+
+<br/>
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/><br/>
+
+<br/>
+
+<br/>
+
+<?php include("Footer.php")?>
+
+post" action="">
+
+</body>
+</html>
+
+e FarmerRating.php
+
+<?php
+include("../Connection/Connection.php");
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 71
+
+ 
+ 
+
+$farmertype-$_POST["slctfarmertype"};
+$district=$_POST["slctdistrict"];
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtml 1/DTD/xhtml I -transitional.dtd">
+<html xmins="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FarmerRating<(title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php include("Header.php")?>
+</head>
+
+<body>
+
+<form id="form1" name="form1" method="post" action="">
+<div align="center" id="tab">
+
+<h2>Farmer Rating</h2>
+
+<table width="400" border="1">
+
+<tr>
+
+<td width="165">Select FarmerType</td>
+
+<td width="219"><select name="slctfarmertype" id="slctfarmertype">
+
+<option>---select---</option>
+<?php
+$sel="select * from tbl_farmertype":
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+{
+
+>
+<option value="<?php echo $data["farmertype_id"];?>"<?php
+if($farmertype==$data["farmertype_id"]){ echo "selected";}?>><?php echo
+$data["farmertype_name"];?></option>
+
+<?php
+}
+
+>
+</select></td>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 72
+</tr>
+
+<tr>
+
+<td>Select District</td>
+
+<td><select name="slctdistrict" id="slctdistrict">
+
+<option>---select---</option>
+<?php
+$sel="select * from tbl district";
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+{
+
+>
+
+<option value="<?php echo $data["district_id"];?>"<?php if($district-=$data["district_id"]){
+echo "selected";}?>><?php echo $data["district_name"];?></option>
+
+<?php
+
+}
+
+ae
+</select></td>
+</tr>
+<tr>
+
+<td colspan="2"><input type="submit" name="btnsubmit" id="btnsubmit" value="Submit"
+[></td>
+
+</tr>
+
+</table>
+
+<table width="928" height="106" border="1">
+<tr>
+
+<td width="78">Slno</td>
+
+<td width="78">Name</td>
+<td width="78">Address</td>
+<td width="78">Gender</td>
+<td width="78">Email</td>
+<td width="78">Contact</td>
+<td width="78">Proof</td>
+<td width="88">Doj</td>
+
+<td colspan="2">Action</td>
+</tr>
+
+<?php
+
+$sel="select *from tbl_farmer f inner join tbl_farmertype ft on
+
+ft.farmertype_id=f.farmertype_id where ft.farmertype_id="".$farme ype and
+f.district_id="$district."";
+
+$rows=mysql_query($sel);
+‘fecho $sel;
+
+$i=1;
+while(Sdata=mysql_ fetch _array($rows))
+t
+
+ies
+
+<tr>
+<td><?php echo $i?></td>
+
+<td><?php echo $data["farmer_name"];?></td>
+
+<td><?php echo $data["farmer_address"];?></td>
+
+<td><?php echo $data["farmer_gender"];?></td>
+
+<td><?php echo $data["farmer_email"];?></td>
+
+<td><?php echo $data["farmer_contact"];?></td>
+
+<td><a href="../Farmer/Proof/<?php echo $data["farmer_proof"];?>" download><img
+src="../Farmer/Proof/<?php echo $data["farmer_proof"];?>" height="100"
+width="100"/></a></td>
+
+<td><?php echo $data["farmer_doj"];?></td>
+
+<td><a href="SetRateFarmer.php?farmerid=<?php echo
+$data['farmer_id'];?>">RateNow</a></td>
+
+</tr>
+<?php
+
+$i++;
+}
+
+>
+
+</table>
+</div>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+</body>
+</html>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE
+
+74
+
+ 
+FARMER'S BUDDY
+
+     
+ 
+   
+    
+     
+    
+   
+   
+    
+     
+    
+   
+   
+   
+ 
+ 
+
+e NewFarmerList
+
+<?php
+include("../Connection/Connection.php");
+
+ 
+ 
+
+if($_GET['acceptid'])
+
+{
+
+$upd="update tbl_farmer set farmer_status=1 where
+farmer_id='".6_GET["acceptid"].""";
+mysql_query($upd);
+echo "<script> alert('‘Accepted')</script>";
+header("location:NewFarmerList.php");
+
+if($_GET['rejectid'])
+
+t
+
+$upd="update tbl_farmer set farmer_status=2 where
+farmer_id="".$_GET["rejectid"].""";
+
+mysql _query($upd);
+
+echo "<script> alert('Rejected')</script>";
+header("location:NewFarmerList.php");
+
+>
+
+ 
+ 
+        
+ 
+ 
+    
+   
+   
+   
+     
+     
+   
+ 
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml |-transitional.dtd">
+<html xmIns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NewFarmerList</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php
+include("HomePagel .php");
+>
+
+</head>
+
+  
+   
+ 
+
+<body>
+<div id="tab" align="center">
+
+   
+
+TAI BHARATH ARTS AND SCIENCE COLLEGE 75
+
+ 
+ 
+
+FARMER'S BUDDY
+
+<h2>New Farmer List</h2>
+
+<table width="928" height="106" border="1">
+<tr>
+
+<td width="78">SIno</td>
+
+<td width="78">Farmertype</td>
+
+<td width="78">Name</td>
+
+<td width="78">Address</td>
+
+<td width="78">Gender</td>
+
+<td width="78">Email</td>
+
+<td width="78">Contact</td>
+
+<td width="78">Proof</td>
+
+<td width="88">Doj</td>
+
+<td colspan="2">Action</td>
+
+</tr>
+
+<?php
+
+$sel="select *from tbl_ farmer f inner join tbl_farmertype ft on
+ft.farmertype_id=f.farmertype_id where f.farmer_status=0";
+$rows=mysql_query(Ssel);
+
+$i=1;
+
+while($data= mysql_fetch_array($rows))
+
+{
+
+a>
+
+<tr>
+
+<td><?php echo $i?></td>
+
+<td><?php echo $data["farmertype_name"];?></td>
+
+<td><?php echo $data["farmer_name"];?></td>
+
+<td><?php echo $data[{"farmer_address"];?></td>
+
+<td><?php echo $data["farmer_gender"];?></td>
+
+<td><?php echo $data["farmer_email"];?></td>
+
+<td><?php echo $data["farmer_contact"];?></td>
+
+<td><a href="../Farmer/Proof/<?php echo $data["farmer_proof"];?>"
+download><img src="../Farmer/Proof/<?php echo $data["farmer_proof"];?>"
+height="100" width="100"/></a></td>
+
+<td><?php echo $data["farmer_doj"];?></td>
+
+<td><a href="NewFarmerList.php?acceptid=<?php echo
+$data[‘farmer_id'];?>">Accept</a></td>
+
+<td><a href="NewFarmerList.php?rejectid=<?php echo
+$data['farmer_id'];?>">Reject</a></td>
+
+</tr>
+<?php
+$i++;
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 16
+ 
+ 
+       
+ 
+   
+    
+   
+ 
+   
+  
+
+  
+
+</table>
+</div>
+
+</body>
+</html>
+
+e ViewBuyProduct.php
+
+  
+
+<?php
+include("../Connection/Connection.php");
+if($_GET["id"])
+{
+
+  
+
+$upd="update tbl_cart set cart_ustatus=1 where cart_id=".$ GET["id"]."";
+mysql_query($upd);
+
+ 
+ 
+       
+       
+   
+   
+   
+   
+ 
+      
+   
+  
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN""http://www.w3.org/TR/xhtml |/DTD/xhtml -transitional.dtd">
+<html xmins="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>View Buy Products</title>
+<script type="text/javascript">
+function preventBack() { window. history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php
+include("Header.php");
+>
+</head>
+
+ 
+ 
+      
+      
+     
+   
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+<div id="tab" align="center">
+
+<h2>View Buy Products</h2>
+
+<table width="625" border="4" cellpadding="2">
+
+<tr>
+
+<td width="96" height="133" scope="col">SIno</td>
+
+<td width="67" scope="col">Name</td>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 77
+— a ae eer ere
+<td width="65" scope="col">Address</td>
+
+<td width="57" scope="col">Contact</td>
+
+<td width="76" scope="col">ProductName</td>
+
+<td width="62" scope="col">Quantity</td>
+
+<td width="62" scope="col">Date</td>
+
+<td width="66" scope="col">&nbsp;</td>
+
+</tr>
+
+<?php
+
+$sel="select *from tbl_cart c inner join tbl_user u on u.user_id=c.user_id inner join
+tbl_product p on p.product_id=c.product_id and cart_ustatus=0";
+
+$rows=mysql_query($sel);
+$i=1;
+while($data=mysql_fetch_array($rows))
+{
+
+>
+<tr>
+<td><?php echo $i?></td>
+
+<td><?php echo $data["user_name"];?></td>
+<td><?php echo $data["user_address"];?></td>
+<td><?php echo $data["user_contact"];?></td>
+<td><?php echo $data["product_name"];?></td>
+<td><?php echo $data["cart_quantity"];?></td>
+<td><?php echo $data["cart_cdate"];?></td>
+<td><a href="ViewBuyProduct.php?id=<?php echo $data['cart_id'];?>">Verify</a></td>
+<?php
+$i++;
+}
+
+>
+
+</tr>
+</table>
+</div>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+FARMER’S BUDDY
+
+</body>
+</html>
+
+e ViewPlotBooking.php
+
+<?php
+include("../Connection/Connection.php");
+
+if($_GET['acceptid'])
+
+{
+
+$upd="update tbl_plotbooking set plotbooking pstatus=1 where
+plotbooking id=".$ GET["acceptid"].""";
+
+mysql_query($upd),
+
+echo "<script> alert('Accepted')</script>";
+
+header("location: ViewPlotBooking.php");
+
+if($_ GET['rejectid'])
+
+$upd="update tbl_plotbooking set plotbooking pstatus=2 where
+plotbooking id=".$ GET["rejectid"]."";
+
+mysql _query($upd);
+
+echo "<script> alert('Rejected')</script>";
+
+header("location: ViewPlotBooking.php");
+
+>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlins="http://Awww.w3.org/1999/xhtml">
+<head>
+<meta http-equiv—"Content-Type" content="text/html; charset=utf-8" />
+<title>ViewPlotBooking</title>
+<script type="text/javascript">
+function preventBack() { window.history.forwardQ); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php include("Header.php")?>
+</head>
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 79
+
+ 
+FARMER’S BUDDY
+
+   
+ 
+ 
+
+ 
+ 
+   
+ 
+ 
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+
+ 
+    
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     
+   
+   
+    
+   
+ 
+ 
+   
+ 
+ 
+
+<div align="center" id="tab">
+<h2>View Plot Booking</h2>
+
+<table width="650" border="1">
+
+<tr>
+
+<th width="67" height="113">SIno</th>
+
+<th width="56">Name</th>
+
+<th width="51">Address</th>
+
+<th width="62">Contact</th>
+
+<th width="52">Plotno</th>
+
+<th width="57">Date</th>
+
+<th width="55">Duration</th>
+
+<th width="5 1">Description</th>
+
+<th colspan="2">Action</th>
+
+</tr>
+
+<?php
+
+$sel="select *from tbl_plotbooking pb inner join tbl_farmer f on f.farmer_id=pb.farmer_id
+inner join tbl_plot pl on pl.plot_id=pb.plot_id ";
+
+ 
+ 
+
+$rows=mysql_query($sel);
+$i=1;
+
+while($data= mysql_fetch_array(Srows))
+{
+
+eo
+
+  
+
+ 
+
+<tr>
+<td><?php echo $i?></td>
+
+ 
+    
+   
+   
+   
+   
+     
+   
+   
+ 
+ 
+
+<td><?php echo $data["farmer_name"];?></td>
+<td><?php echo $data["farmer_address"];?></td>
+<td><?php echo $data["farmer_contact"];?></td>
+<td><?php echo $data["plot_no"];?></td>
+
+<td><?php echo $data["plotbooking_date"];?></td>
+<td><?php echo $data["plotbooking_duration"];?></td>
+<td><?php echo $data["plotbooking description"];?></td>
+<td><?php
+if($data["plotbooking_pstatus"]==1)
+
+echo "Accepted";
+
+ 
+ 
+   
+ 
+
+<a href="ViewPlotBooking.php?acceptid—<?php echo
+$data['plotbooking _id'];?>">Accept</a><?php }?></td>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 80
+FARMER’S BUDDY
+
+<td><?php if($data["plotbooking pstatus"]——2)
+
+echo "Rejected";
+
+o>
+<a href=" ViewPlotBooking.php?rejectid=<?php echo
+$data['plotbooking id'];?>">Reject</a><?php }?></td>
+</tr>
+<?php
+$i;
+
+}
+
+>
+</table>
+</div>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+</body>
+</html>
+
+e ViewProduct.php
+
+<?php
+include("../Connection/Connection.php");
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 81
+FARMER’S BUDDY
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN"" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmins="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv—"Content-Type" content="text/html; charset=utf-8" />
+<title>ViewProduct</title>
+<script type="text/javascript">
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+</script>
+<?php include("Header.php")?>
+</head>
+
+<body>
+
+<form id="form1" name="form1" method
+<div align="center" id="tab">
+
+<h2>View Product</h2>
+
+<table width="400" border="L">
+
+<tr>
+
+<td>Select CropType</td>
+
+<td><select name="slctcroptype” id="slctcroptype">
+<option>----Select----</option>
+
+<?php
+
+post" action="">
+
+$sel="select * from tbl_croptype";
+$res= mysql_query($sel);
+while($data=mysql fetch array($res))
+
+{
+
+>
+<option value="<?php echo $data["croptype_id"];?>"<?php
+if($croptype—$data["croptype_id"]){ echo "selected";}?>><?php echo
+$data["croptype_name"];?></option>
+
+<?php
+
+</select></td>
+
+</tr>
+
+<tr>
+
+<td colspan="2"><div align="center">
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 82
+
+ 
+FARMER’S BUDDY
+
+<input type="submit" name="btnsubmit" id="btnsubmit” value="Submit" />
+</div></td>
+</tr>
+</table>
+<table width="300" border="0" align="center" cellpadding="10" cellspacing="10">
+<?php
+if(isset($ POST["btnsubmit"]))
+{
+$sel="select * from tbl product where croptype_id='"".6 POST["slctcroptype"]."" ";
+$row= mysql_query($sel);
+$i=0;
+while($data=mysql fetch array($row))
+{
+$i;
+if($i—1)
+{
+
+}
+
+echo "<tr>";
+
+<td><div align="center"><a href="../Farmer/productimg/<?php echo
+$data["product_image"];?>"><img src="../Farmer/productimg/<?php echo
+
+$data["product_image"];?>" width="150" height="100" /></a></div>
+<p align="center" style="font-size:18px; font-weight:bold"><?php echo
+$data["product_name"];?></p>
+
+Rate: Rs.<?php echo $data["product_rate"];?>/-
+
+<a href="ViewProductDetails.php?productid=<?php echo
+$data["product_id"];?>">viewproduct details</a></td>
+
+<?php
+if($i==3)
+t
+echo "</tr>";
+$i=0;
+
+}
+
+j
+j
+
+>
+</tr>
+</table>
+</div>
+</form>
+<br/>
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 83
+
+ 
+FARMER’S BUDDY
+
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+</body>
+</html>
+
+e ViewPlot.php
+
+<?php
+include("../Connection/Connection.php");
+
+o>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+
+Transitional//EN”"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmIns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>View Plot</title>
+
+<?php
+
+include("Header.php");
+
+re
+
+<script src="../Jq/jquery.js"></script>
+
+<seript>
+
+function getplace(did)
+
+{
+
+$.ajax({url: 'AjaxPlace.php?dsid='+did,
+type: '"GET',
+success: function(data) {
+
+$(‘#slctplace').html (data);
+i
+ys
+j
+
+</script>
+<script type="text/javascript">
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 84
+_FARMER’S BUDDY
+
+    
+ 
+
+    
+
+function preventBack() { window.history.forward(); }
+setTimeout("preventBack()", 0);
+window.onunload = function Q { null };
+</script>
+</head>
+
+ 
+ 
+       
+     
+ 
+
+<body>
+<form id="form1!" name="form1" method="post" action="">
+
+<div id="tab” align="center">
+
+<h2>View Plot</h2>
+
+<table width="400" border="1">
+
+<tr>
+
+<td>Select District</td>
+
+<td><select name="slctdistrict" id="slctdistrict" onchange="getplace(this.value)">
+<option>----Select----</option>
+
+<?php
+
+ 
+   
+      
+ 
+   
+    
+    
+ 
+  
+
+$sel="select * from tbl_ district";
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+t
+
+      
+ 
+ 
+ 
+
+vo
+<option value="<?php echo S$data["district_id"];?>"<?php if($district==$data["district_id"]) {
+echo "selected";}?>><?php echo $data["district_name"];?></option>
+
+    
+   
+   
+
+<?php
+
+  
+
+</select></td>
+</tr>
+
+<tr>
+<td>Select Place</td>
+
+<td><select name='"slctplace" id="slctplace">
+<option>----Select----</option>
+
+<?php
+
+ 
+ 
+      
+   
+   
+ 
+  
+
+$sel="select * from tbl_ place";
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+
+{
+
+    
+   
+   
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 85
+FARMER’S BUDDY
+
+>
+<option value="<?php echo $data["place_id"];?>"<?php if($place—$data["place id"]){ echo
+"selected"; }?>><?php echo $data["place_name"];?></option>
+
+<?php
+
+</select></td>
+
+</tr>
+
+<tr>
+
+<td>Select Soiltype</td>
+
+<td><select name="slctsoiltype” id="slctsoiltype">
+
+<option>----Select----</option>
+
+<?php
+$sel="select * from tbl_soiltype";
+$res= mysql_query($sel);
+while($data=mysql_fetch_array($res))
+{
+
+vee
+<option value="<?php echo $data["soiltype_id"];?>"<?php
+if($soiltype—$data["soiltype_id"]){ echo "selected";}?>><?php echo
+$data["soiltype_name"];?></option>
+
+<?php
+
+</select></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" name="btnsubmit" id="btnsubmit"
+value="Submit" />
+<input type="reset" name="btncancel" id="btncancel" value="Cancel" /></td>
+</tr>
+</table>
+<?php
+if(isset($ POST["btnsubmit"]))
+{
+
+ 
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 86
+FARMER’S BUDDY
+
+ 
+
+$sel="select * from tbl_plot p inner join tbl_soiltype s on s.soiltype_id=p.soiltype_id
+where p.place_id=".$ POST["slctplace"]." and p.soiltype_id='"".$_POST["slctsoiltype"]."";
+$row= mysql_query($sel);
+
+while($data=mysql_ fetch array($row))
+{
+
+>
+
+<table width="100" border="1">
+
+<tr>
+
+<td>No: <?php echo $data["plot_no"];?></td>
+
+</tr>
+
+<tr>
+
+<td>Area: <?php echo $data["plot_area"];?></td>
+
+</tr>
+
+<tr>
+
+<td>Soiltype: <?php echo $data["soiltype_name"];?></td>
+
+</tr>
+
+<tr>
+
+<td><a href="ViewPlotDetails.php?plotid=<?php echo $data["plot_id"];?>">viewplot
+details</a>
+
+</table>
+
+</div>
+
+<?php
+j
+
+j
+
+>
+<p>&nbsp;</p>
+</form>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<?php include("Footer.php")?>
+</body>
+</html>
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 87
+Testing is the process of examining the software to compare the actual behavior with that of
+the excepted behavior. The major goal of software testing is to demonstrate that faults are not
+present. In order to achieve this goal the tester executes the program with the intent of finding
+errors. Though testing cannot show absence of errors but by not showing their presence it is
+considered that these are not present.
+
+System testing is defined as the process by which one detects the defects in the
+software. Any software development organization or team has to perform several processes.
+Software testing is one among them. It is the final opportunity of any programmer to detect
+and rectify any defects that may have appeared during the software development stage.
+Testing is a process of testing a program with the explicit intention of finding errors that
+makes the program fail. In short system testing and quality assurance is a review in software
+products and related documentation for completion, correctness, reliability and
+maintainability.
+
+System testing is the first stage of implementation, which is aimed at ensuring that
+the system works accurately and efficiently before live operation commences. Testing is vital
+to the success of the system. System testing makes a logical assumption that if all the parts of
+the system are correct and the goal will be successfully achieved. A series of testing are
+performed for the proposed system before the proposed system is ready for user acceptance
+testing.
+
+The testing steps are,
+
+> Unit testing
+
+> Integration testing
+> Validation testing
+> Output Testing
+
+» User Acceptance Testing
+
+> Alpha Testing
+
+> Beta Testing
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 89
+
+ 
+System Testing provides the file assurance that software once validated must be combined
+with all other system elements. System testing verifies whether all elements have been
+combined properly and that overall system function and performance is achieved. After the
+integration of modules, the validation test was carried out over the system. It was found that
+
+all the modules work well together and meet the overall system function and performance.
+8.1. UNIT TESTING
+
+Unit testing is carried out screen-wise, each screen being identified as an object.
+Attention is diverted to individual modules, independently to one another to locate errors.
+This has enabled the detection of errors in coding and logic.
+
+Various test cases are prepared. For each module these test cases are implemented and
+it is checked whether the module is executed as per the requirements and outputs the desired
+result. In this test each service input and output parameters are checked.
+
+In unit testing,
+» Module interface was tested to ensure that information properly flows into and out
+of the program under test.
+> Boundary condition was tested to ensure that module operates properly at
+boundaries established to limit or restrict processing.
+> All independent paths through the control structures were executed to ensure that
+all statements in the modules have been executed at least once.
+
+Error handling paths were also tested.
+
+8.2. INTEGRATION TESTING
+
+Integration testing is a systematic technique for constructing the program structure while
+at the same time conducting tests to uncover errors associated with interfacing. Unit tested
+module were taken and a single program structure was built that has been dictated by the
+
+design. Incremental integration has been adopted here.
+
+The modules are tested separately for accuracy and modules are integrated together
+
+using bottom up integration i.e., by integrating from moving from bottom to the top. The
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 90
+
+ 
+FARMER’S BUDDY
+
+system is checked and errors found during integration are rectified. In this testing, all the
+individual modules were combined and the module wise shifting was verified to be alright.
+The entire software was developed and tested in small segments, where errors were easy to
+locate and rectify. Program builds (group of modules) were constructed corresponding to the
+successful testing of user interaction, data manipulation analysis, and display processing and
+database management.
+
+The integration testing is performed in the “Tech Mate” by combining the three
+modules i.e.; by combining the technician and user modules, or by admin and technician
+modules or by combining the admin and technician modules and found all are running
+
+without any error.
+
+8.3. VALIDATION TESTING
+
+Validation testing is done to ensure complete assembly of the error-free software.
+Validation can be termed successful only if it functions in manner. Reasonably expected by
+
+the customer under validation is alpha and beta testing. Alpha testing is where the end user
+
+tests the system rather than the developer, but in a controlled environment. The software is
+
+used on a natural setting with the developer monitoring the user using the system. The
+
+developer records the errors and usage problems encountered by the user.
+
+8.4. OUTPUT TESTING
+
+After performing the validation testing, the next step is output testing of the proposed
+system, since could be useful if it does not produce the required output in the specific format.
+The output generated by the system under considerations is tested asking the users about the
+
+format required by them.
+8.5. USER ACCEPTANCE TESTING
+
+User acceptance of a system is the key factor for the success of any system. The
+system under considerations is tested for user’s acceptance by constantly keeping in touch
+with the prospective system users at the time of developing and making of hardware
+
+management software.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 91
+
+ 
+FARMER’S BUDDY
+
+8.6. ALPHA TESTING
+
+Alpha testing is simulated or actual operational testing by potential users/customers or
+an independent test team at the developers’ site. Alpha testing is often employed for off-the-
+shelf software as a form of internal acceptance testing, before the software goes to beta
+
+testing.
+
+8.7. BETA TESTING
+
+Beta testing comes after alpha testing. Versions of the software, known as beta
+versions, are released to a limited audience outside of the programming team. The software is
+
+released to groups of people so that further testing can ensure the product has few faults or
+
+bugs. Sometimes, beta versions are made available to the open public to increase the
+
+feedback field to a maximal number of future users.
+
+The user person conducts beta testing at one more sites. The developer is not present
+during these tests. Hence, beta test can be said as the live application of software on an
+environment that cannot be controlled by the developer. The sales person takes down the
+problems encountered during beta testing and reports to the developer at regular intervals.
+The developer makes suitable modifications to the software henceforth.
+
+The client-side validation is done in this testing phase. It is checked whether the data
+passed to each service is valid or not. Entering incorrect values does the validation testing
+and it is checked whether the errors are being considered. Incorrect values are to be
+
+discarded. The errors are rectified.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 92
+
+ 
+FARMER’S BUDDY
+
+The implementation is the final state and it is an important phase. It involves the individual
+
+programming; system testing, user training and the operational running of developed
+
+proposed system that constitutes the application subsystems. A major task of preparing for
+implementation is education of users, which should really have been taken place much earlier
+in the project when they were being involved in the investigation and design work. During
+the implementation phase system actually takes physical shape. In order to develop a system
+implemented planning is very essential.
+
+The implementation phase of the software development is concerned with
+translating design specification into source code. The user tests the developed system and
+changes are made according to their needs. Our system has been successfully implemented.
+Before implementation several tests have been conducted to ensure that no errors are
+encountered during the operation. The implementation phase ends with an evaluation of the
+system after placing into the operation for a period of time.
+
+The process of putting the developed system in actual use is called system
+implementation. This includes all those activities that take place to convert from old system
+to new system. The system can be implemented only after testing is done and is found to be
+working to specifications. The implementation stage is a systems project in its own right. The
+
+implementation stage involves following tasks:
+IMPLEMENTATION PLAN
+
+Test system with sample data
+
+Detection and correction of errors
+
+Make the necessary changes in the system
+Check with the existing system
+
+Installation of hardware and software utilities
+
+Training and involvement of user personnel
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 94
+
+ 
+FARMER’S BUDDY
+
+Maintenance is actually the implementation of the post implementation review plan. As
+important as it is, many programmers and analyst are reluctant to perform or identify
+themselves with maintains effort. There are psychological, personalities and professional
+reasons for this. In any case first class effort must be made to ensure that the software
+changes are made properly and in time to keep the system intone with user specification.
+Maintenance is expensive. One way to reduce Maintenance costs are through maintenance
+management and software modifications audits. Software modifications consists of program
+rewrites system level updates, re-audits of low ranking software, reduced maintenance
+
+backlog and higher satisfaction and moral among the maintenance of staff.
+
+Even when the new system has gone live there may be need for some
+system design activity. This will see from changes that are necessitated by the dynamic
+nature of the system and its environment. Changes may be required to correct faults or to
+
+bring about improvements, and may arise as part of normal running of the system or as a
+
+result of a review of the system performance. Changes or amendments and documentations
+
+and perhaps handled by specialist group of maintenance staff.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 96
+
+ 
+POIANA DULL
+
+A computer system is secure if neither its availability to attain its objectives not its
+availability to survive can be adversely affected by an unwanted event.A computer based
+security is the combination of many assets or resourses designed to perform some function or
+to provide service.The facility to impose strict authorization is completely vested in the hands
+of the system respectively.Only valid users can enter into the system.They have to provide a
+valid username and password to provide that they are valid users.if any one of them is
+wrong,access is denied.At register time admin provide a OTP security check up for user
+account validation and its help to admin avoid fake ids.
+
+System security is refers to the technical innovation and
+
+procedures applied to the hardware and operating system to protect against deliberate or
+
+accidental damage from a defined threat. In contrast, data security is the protection of data
+loss, disclosure, modification and destruction. The security features are considered while
+
+developing the system, so as to avoid the errors and omissions that may lead to serious
+
+problems.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 98
+
+ 
+   
+   
+
+FARMER'S BUDDY
+
+In future we can expect the modified version of Talent Search Web Application
+System. The system is very flexible for further up gradation with additional requirement of
+normal users and companies the visual studio 2012 and sql server 2014 make this
+modifications very easily it is also possible to involve more functions into the system.
+
+The database and the information can be updated to the latest coming versions.
+There are also possibilities for enhancing and further developing the project with the latest
+information. There are also possibilities for enhancing and further developing the project
+with the latest information and needs of the’ Talent Search Web Application’.
+
+BHARATH ARTS AND SCIENCE COLLEGE 100
+
+ 
+FARMERS BUDDY
+
+The administrator has the freedom to accept or reject the new farmers and users. Only the
+administrator farmer and user can login to “FAEMER’S BUDDY". This system was tested with
+a lots of test details and found to be working correctly. All the requirements are built into the
+system. It produces data output in the required format.
+
+The developed system has mainly three parts administrator, farmers and user. It is developed
+using PHP and MySQL Server .The system can be easily modified or expanded. The software
+provides all the facilities required in the system, the reports are user friendly. The software
+requires less effort to operate.
+
+The software is developed with scalability in mind. Additional modules can be
+
+easily added when necessary. The software is developed with modular approach. All modules
+
+in the system have been tested and put together to form the main system. Finally the system
+
+tested with real data and everything worked successfully. Thus the system has fulfilled all the
+
+objectives identified and is able to replace the existing system.
+
+ 
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 102
+14. REFERENCE
+
+JAI BHARATH ARTS AND SCIENCE COLLEGE 103
+
+FARMER'S BUDDY
+
+[1] Stack Over Flow Web Site
+
+[2] Peter Norton “Software Engineering”
+
+[3] Korth, Sudarshan , “Database System Concepts
+
+ 
+
